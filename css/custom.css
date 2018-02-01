@@ -1,0 +1,147 @@
+/******   min-width:768px   *******/
+@media(min-width:768px) {
+.dropdown:hover .dropdown-menu {
+  display:block !important;
+  }
+  .glyphicon-chevron-right{
+  margin-right:0px;
+  }
+  
+}
+
+
+/******   (max-width: 1040px) and (min-width: 768px)   *******/
+@media only screen and (max-width: 1040px) and (min-width: 768px)  {
+.carousel-control .glyphicon-chevron-right{margin-top:130px;}
+.carousel-control .glyphicon-chevron-left{margin-top:130px;}
+}
+
+
+/******   max-width:768px   *******/
+@media(max-width:768px) {
+.header {
+  text-align:center;
+  padding-top: 2%;
+}
+.header p {
+  font-size:1em;
+}
+ .header .btn {
+  padding: 5px 12px 5px 12px;
+ }
+ .header img {
+  padding-top:5%;
+ }
+.navbar-collapse .dropdown-menu li a{
+color:#FFF !important;
+background-color:#666;
+}
+.navbar-collapse .dropdown-menu li a:hover{
+background-color:#aaa !important;
+border-right:none;
+border-left:6px solid #31b5eb;
+} 
+.navbar-default .navbar-collapse{border-color:#999;
+}
+.navbar-nav .open .dropdown-menu > li > a{
+padding-left:10px;
+}
+.dropdown-menu > .active > a, 
+.dropdown-menu > .active > a:focus, 
+.dropdown-menu > .active > a:hover{
+	color:#FFF !important;
+	background-color:#aaa !important;
+	border-left:5px solid #31b5eb;
+}
+.nav > li > a{margin:0px;
+}
+.carousel-control{margin-top:-15px;
+}
+.carouselImg{margin-top:-2px;
+}
+.carousel-control .glyphicon-chevron-left{
+margin-top:35px;
+}
+.carousel-control .glyphicon-chevron-right{
+margin-top:35px;
+}
+.navbar-brand img{
+margin-left:20px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #085b72;
+	}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #8cccde;
+	}
+.navbar-toggle .icon-bar {
+width: 20px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ccc!important;
+	}
+.carousel-control.left{
+display:none;
+}
+.carousel-control.right{
+display:none;
+}
+
+}
+
+
+/******   max-width:767px   *******/
+@media(max-width:767px) {
+.programmingLanguages{
+height:auto !important;
+}
+.form-group .bodrBottom{
+margin-bottom:0px;
+}
+.form-group .submit{
+margin-top:0px !important;
+}
+
+}
+
+
+/******   max-width:676px   *******/
+@media(max-width:676px) {
+.header h1{margin-top:-15px;
+font-size: 2.5em;
+}
+.navbar-toggle{
+padding: 7px 5px;
+margin-top: 10px;}
+}
+
+
+/******   max-width:520px   *******/
+@media(max-width:520px) {
+.header p{
+display:none;
+}
+.applybtn {
+    margin-top: -76px;
+    float: left;}
+}
+.jobDetailsBox h4 {
+    margin-top: 40px;
+}
+.about{
+}
+
+}
+
+
+/******   max-width:519px   *******/
+@media(max-width:519px) {
+.header p{display:none;}
+.applybtn{margin-top: -95px;}
+}
+
+
+/******   max-width:426px   *******/
+@media(max-width:426px) {
+.applybtn{margin-top: -95px;}
+}
